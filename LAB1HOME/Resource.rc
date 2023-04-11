@@ -1,0 +1,123 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Polish (Poland) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_PLK)
+LANGUAGE LANG_POLISH, SUBLANG_DEFAULT
+#pragma code_page(1250)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Polish (Poland) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_ACCELERATOR1 ACCELERATORS
+BEGIN
+    "B",            ID_BITMAP,              VIRTKEY, CONTROL, NOINVERT
+    "C",            ID_COLOR,               VIRTKEY, CONTROL, NOINVERT
+    VK_F4,          ID_EXIT_APP,            VIRTKEY, ALT, NOINVERT
+    VK_F2,          ID_NEW_GAME,            VIRTKEY, NOINVERT
+    "S",            ID_STRETCH,             VIRTKEY, CONTROL, NOINVERT
+    "T",            ID_TILE,                VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP                  "Bitmap.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU
+BEGIN
+    POPUP "File"
+    BEGIN
+        MENUITEM "New Game\tF2",                ID_NEW_GAME
+        MENUITEM SEPARATOR
+        MENUITEM "Exit\tAlt+F4",                ID_EXIT_APP
+    END
+    POPUP "Background"
+    BEGIN
+        MENUITEM "Color \t Ctrl+C",             ID_COLOR
+        MENUITEM SEPARATOR
+        MENUITEM "Bitmap\tCtrl+B",              ID_BITMAP
+        MENUITEM "Tile\tCtrl+T",                ID_TILE, GRAYED
+        MENUITEM "Stretch\tCtrl+S",             ID_STRETCH, GRAYED
+    END
+    POPUP "Help"
+    BEGIN
+        MENUITEM "About...",                    ID_ABOUT
+    END
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
